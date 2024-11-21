@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --Green-200-lighter: hsl(148, 38%, 91%);
+    --Green-600-medium: hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-500-medium: hsl(186, 15%, 59%);
+    --Grey-900-darker: hsl(187, 24%, 22%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Karla" , sans-serif;
+}
+
+
+body{
+   background-color: rgba(255, 0, 0, 0.342);
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: right;
+    align-items: center;
+    background-image: url(/images/bg-intro-desktop.png);
+    
+}
+
+
+
+
+.container{
+    text-align: left;
+    flex-direction: column;
+    background-color: var(--White);
+    padding: 40px;
+    width: 550px;
+    height: 500px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-radius: 20px;
+    
+}
+
+.palavras{
+    color: white;
+    text-align: left;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+    size: 90;
+}
+
+button{
+    color: white;
+    background-color: green;
+    width: 580px;
+    height: 55px;
+    font-size: 110%;
+    
+}
